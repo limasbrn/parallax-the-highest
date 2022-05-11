@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <section class="section_menu">
+        <div class="btn-abs"></div>
+    </section> -->
+
+    <section class="section_one">
+        <div class="btn-abs">Contact us</div>
+        <div>Services</div>
+        <div></div>
+        <div></div>
+        <div> <img  class="logo" src="/imagens/Logo-com-cor.svg" alt=""> </div>
+
+        <span class="frase">Your place is in the &nbsp<strong>the highest</strong>&nbsp locations. </span>
+        
+        <img class="hominho" src="/imagens/hominho.svg" alt="">
+        <img class="montanha1" src="/imagens/montanha1.svg" alt="">
+        <img class="montanha2" src="/imagens/montanha2.svg" alt="">
+        <img class="montanha3" src="/imagens/montanha3.svg" alt="">
+        <img class="montanha4" src="/imagens/montanha4.svg" alt="">
+        <img class="montanha5" src="/imagens/montanha5.svg" alt="">
+        <img class="nuvens1" src="/imagens/nuvens-pp.svg" alt="">
+        <img class="nuvens2" src="/imagens/nuvens-m.svg" alt="">
+        <img class="nuvens3" src="/imagens/nuvens-m.2.svg" alt="">
+    </section>
+    <section class="section_two"> </section>
+
+    <script>
+        let montanha5 = document.querySelector('.montanha5');
+        let montanha3 = document.querySelector('.montanha3');
+        let montanha4 = document.querySelector('.montanha4');
+        let montanha2 = document.querySelector('.montanha2');
+        let montanha1 = document.querySelector('.montanha1');
+        let nuvens1 = document.querySelector('.nuvens1');
+        let nuvens2 = document.querySelector('.nuvens2');
+        let homem  = document.querySelector('.hominho');
+        let botão  = document.querySelector('.btn-abs');
+        let frase  = document.querySelector('.frase');
+
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+
+            montanha5.style.bottom = value * -0.5 + 'px';
+            montanha3.style.bottom = value * -0.2 + 'px';
+            montanha4.style.bottom = value * -0.2 + 'px';
+            /* montanha2.style.top = value * 0.5 + 'px';
+            montanha1.style.bottom = value * 0.5 + 'px'; */
+            homem.style.bottom = value * -0.1 + 'px';
+            nuvens1.style.left = value * 0.5 + 'px';
+            nuvens2.style.right = value * 0.5 + 'px';
+            botão.style.bottom = value * 0.5 + 'px';
+           
+        })
+
+
+       
+    </script>
+    
+</body>
+</html>
