@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The highest</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,10 +13,18 @@
     </section> -->
 
     <section class="section_one">
-        <div class="btn-abs">Contact us</div>
-        <div>Services</div>
-        <div></div>
-        <div></div>
+
+        <div class="menu_nav_absolut">
+            <ul class="lista_btn">
+                <li class="btn-sec_one">Trip styles</li>
+                <li class="btn-sec_one">Destinations</li>
+                <li class="btn-sec_one">Calendar</li>
+                <li class="btn-sec_one">Guides</li>
+                <li class="btn-sec_one">Reserve a trip</li>
+                <li class="btn-sec_one-about">About us</li>
+            </ul>
+        </div>
+        
         <div> <img  class="logo" src="/imagens/Logo-com-cor.svg" alt=""> </div>
 
         <span class="frase">Your place is in the &nbsp<strong>the highest</strong>&nbsp locations. </span>
@@ -29,9 +37,24 @@
         <img class="montanha5" src="/imagens/montanha5.svg" alt="">
         <img class="nuvens1" src="/imagens/nuvens-pp.svg" alt="">
         <img class="nuvens2" src="/imagens/nuvens-m.svg" alt="">
-        <img class="nuvens3" src="/imagens/nuvens-m.2.svg" alt="">
+        
     </section>
-    <section class="section_two"> </section>
+    <section class="section-two">
+       <div class="expl_text">
+            <div class="title_container"> <img class="logo-title" src="/imagens/logo.svg" alt=""> <h1 class="title_mountain">EXPLANATORY TEXT</h1></div>
+            <span class="parag_mountain">Keytar single-origin coffee chambray lumbersexual semiotics. Bespoke single-origin coffee fanny pack yuccie. Narwhal shoreditch woke typewriter butcher pitchfork tbh. Hoodie lo-fi blog YOLO meggings poke fixie ramps keffiyeh man braid.
+
+                Af messenger bag normcore, banh mi skateboard letterpress raclette. Adaptogen chillwave wolf iceland. Freegan microdosing before they sold out, disrupt banjo vinyl hot chicken 3 wolf moon. Raw denim hot chicken cloud bread unicorn XOXO 8-bit thundercats dreamcatcher. Chartreuse paleo poke palo santo franzen. Irony offal locavore DIY, tbh quinoa kale chips forage kickstarter.</span>
+       </div> 
+    </section>
+    <section class="section-three">
+        <div class="segundo-container">
+            <div class="container-serviços"></div>
+            <div class="container-serviços"></div>
+            <div class="container-serviços"></div>
+            <div class="container-serviços"></div>
+        </div>
+    </section>
 
     <script>
         let montanha5 = document.querySelector('.montanha5');
@@ -44,6 +67,8 @@
         let homem  = document.querySelector('.hominho');
         let botão  = document.querySelector('.btn-abs');
         let frase  = document.querySelector('.frase');
+        let titlecontainer = document.querySelector('.title_container');
+        let paragrafo = document.querySelector('.parag_mountain');
 
         window.addEventListener('scroll', function() {
             let value = window.scrollY;
@@ -57,9 +82,15 @@
             nuvens1.style.left = value * 0.5 + 'px';
             nuvens2.style.right = value * 0.5 + 'px';
             botão.style.bottom = value * 0.5 + 'px';
-           
         })
+        
+        window.addEventListener('scroll', function(){
+            let value2 = window.scrollY;
+            
+            titlecontainer.style.left = value2 * 0.2 +'px';
+            paragrafo.style.top = value2 * 0.1 + 'px';
 
+        })
 
        
     </script>
