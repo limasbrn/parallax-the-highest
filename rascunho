@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    height:auto;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.section_one{
+    display: flex;
+    position: relative;
+    width:100%;
+    height:100vh;
+    position: relative;
+    background: linear-gradient(rgb(255, 255, 255), rgb(203, 211, 253));
+    overflow: hidden;
+}
+.menu_nav_absolut{
+    display: flex;
+    width:700px;
+    height:50px;
+    position: absolute;
+    right: 120px;
+    top:30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.lista_btn{
+    display:flex;
+    flex-direction: row;
+}
+.btn-sec_one-about{
+    display: flex;
+    text-decoration: none;
+    width: 130px;
+    height: 35px;
+    background-color: #DADADA;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-sec_one-about:hover{
+    font-weight: bolder;
+    color:white;
+    background-color:rgb(22, 21, 21);
+}
+.btn-sec_one{
+    display: flex;
+    text-decoration: none;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+.btn-sec_one:hover{
+    font-weight: bolder;
+}
+.logo{
+    position:absolute;
+    width:200px;
+    height:auto;
+    top:30px;
+    left:120px;
+    opacity:95%;
+}
+.frase{
+    display: display;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, 0);
+    font-size:25px;
+    z-index: 1002;
+    text-align: center;
+
+}
+.hominho{
+    display: flex;
+    position: absolute;
+    height:50%;
+    bottom:-100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000;
+}
+.montanha1{
+    display: flex;
+    position: absolute;
+    width:50%;
+    bottom:-100px;
+    left:0;
+    z-index: 990;
+   
+}
+.montanha2{
+    display: flex;
+    position: absolute;
+    width:50%;
+    bottom:-70px;
+    right:0;
+    z-index: 980;
+}
+.montanha3{
+    display: flex;
+    position: absolute;
+    width:50%;
+    bottom:0;
+    left:0;
+    z-index: 970;
+}
+.montanha4{
+    display: flex;
+    position: absolute;
+    width:50%;
+    bottom:0;
+    right:0;
+    z-index: 960;
+}
+.montanha5{
+    display: flex;
+    position: absolute;
+    width:100%;
+    bottom:-100px;
+    left:0;
+    z-index: 950;
+    opacity:30%;
+  
+}
+.nuvens1{
+    display: flex;
+    width:20%;
+    position: absolute;
+    top:100px;
+    left:200px ;
+}
+.nuvens2{
+    display: flex;
+    width:30%;
+    position: absolute;
+    top:120px;
+    right:100px;
+}
+/*-------Section 2-------*/
+.section-two{
+    display: flex;
+    height:75vh;
+    width: 100vw;
+    background-color:rgb(22, 21, 21);
+    justify-content: center;
+}
+.expl_text, .img_legend_container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: #DADADA solid 1px;
+    margin:30px 0px 30px 0px;
+}
+.title_container{
+    display: flex;
+    flex-direction: row;
+    width:300px;
+    height:50px;
+    border-radius:30px;
+    background-color: white;
+    color:#222121;
+    justify-content: center;
+    align-items: center;
+}
+.logo-title{
+    width:33px;
+    height:auto;
+    margin:0px 10px 0px 3px;
+}
+.title_mountain{
+    font-size: 22px;
+    font-weight: 600;
+    margin-right:5px;
+}
+.parag_mountain{
+    width:90%;
+    height:auto;
+    padding: 20px;
+    border-radius:30px;
+    margin: 30px 0px 30px 0px;
+    background-color: #DADADA;
+}
+.img_legend_container{
+    display: flex;
+   align-items:flex-end;
+}
+.img_container{
+    display: flex;
+    justify-content:flex-end;
+}
+.imagem_mountain{
+    width:100%;
+    height:auto;
+    border-radius:5px;
+}
+.legend_container{
+    display: flex;
+    width:310px;
+    height:50px;
+    border-radius:30px;
+    background-color: rgba(255, 255, 255, 0.185);
+    color:#ffffff;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.legend{
+    font-size: 11px;
+    font-weight:bolder;
+    padding-left: 15px;
+}
+/*------Section 3 ------*/
+.section-three{
+    display: flex;
+    position: relative;
+    width:100%;
+    height:100vh;
+    background:rgb(22, 21, 21);
+    justify-content: center;
+    overflow: hidden;
+}
+.segundo-container{
+    display:flex;
+    width:80%;
+    height:400px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.sec_three_1, .sec_three_2{
+   display: flex;
+   width:50%;
+   justify-content: space-around;
+}
+.imagem_bg_mountain {
+    display: flex;
+    position: absolute;
+    bottom:-380px;
+    left:0;
+    opacity: 2%;
+}
+.container-servicos{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height:350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+}
+.icones_camping{
+    width:170px;
+    height: auto;
+}
+/*--------Footer-------*/
+footer{
+    display: flex;
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    justify-content: center;
+}
+.icone_footer{
+    width: 20px;
+    height:auto;
+    margin-left: 10px;
+}
+.footer_container{
+    display: flex;
+    width: 80%;
+    height:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_footer{
+    display: flex;
+    width:120px;
+    height: auto;
+}
+.created{
+    font-size: 11px;
+    font-weight: 500;
+}
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    height:auto;
+    font-size:12px;
+}
+.connect_container{
+    display: flex;
+    width:20%;
+    height:auto;
+    font-size:12px;
+   
+}
+.logo_footer_container{
+    display: flex;
+    width:60%;
+    height:auto;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.lista_burguer{
+    display: none;
+}
+
+/*--------------MEDIA QUERIES---------------*/
+
+@media (max-width: 1200px){
+    .menu_nav_absolut{
+        display:none;
+    }
+    /*-----menu móvel-----*/
+.icone_hamburguer{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 30px;
+    height:auto;
+    top:50px;
+    right:120px;
+}
+.bar1, .bar2, .bar3{
+    width:20px;
+    height: 3px;
+    border-radius: 5px;
+    background-color:#161515;
+}
+.bar2, .bar1{
+    margin-bottom:4px;
+}
+.menu_burguer.active{
+    display:flex;
+    position: absolute;
+    width:170px;
+    height: 250px;
+    background-color:#161515;
+    color: white;
+    border-radius: 30px;
+    top: -100px;
+    right:120px;
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: desce-menu ease-in-out forwards .3s;
+}
+@keyframes desce-menu {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(220px);
+    }
+}
+.menu_burguer:hover{
+    width:200px;
+}
+.lista_burguer.active{
+    display: flex;
+    flex-direction: column;
+}
+.item_menu_burg{
+    display: flex;
+    text-decoration: none;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.item_menu_burg:hover{
+    font-weight: bolder;
+}
+.bar1.active{
+    opacity: 0;
+}
+.bar2.active{
+    animation: rotate-bar2 .3s forwards ease-in;
+}
+.bar3.active{
+    animation: rotate-bar3 .3s forwards ease-in;
+}
+@keyframes rotate-bar2 {
+    0%{
+        transform: translateY(0) rotate(0);
+    }
+    100%{
+        transform:translateY(4px) rotate(45deg)
+    }
+}
+@keyframes rotate-bar3{
+    0%{
+        transform:translateY(0) rotate(0);
+    }
+    100%{
+        transform:translateY(-3px) rotate(-45deg)
+    }
+}
+
+/**/
+}
+@media (max-width: 1090px){
+    .segundo-container{
+        width:90%;
+    }
+    .icones_camping{
+        width:150px;
+    }
+}
+@media (max-width: 900px){
+    
+    .montanha3, .montanha4{
+        width:40%;
+    }
+    .logo {
+        left:80px;
+    
+    }
+    .icone_hamburguer{
+        right:80px
+    }
+    .icones_camping{
+        width:130px;
+    }
+    .segundo-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 800px){
+    .hominho{
+        height:40%;
+    }
+    .menu_burguer.active{
+        width:40vw;
+        height: 300px;
+        right:80px;
+        font-size:25px;
+    }
+}
+@media (max-width: 700px){
+    .menu_burguer.active{
+        width:100vw;
+        height:400px;
+        border-radius: 0px;
+        right:0px;
+    }
+}
+@media (max-width: 600px){
+    .logo {
+        left:60px;
+        width:30%;
+    }
+    .frase{
+        top:200px;
+        font-size:30px;
+    }
+    .hominho{
+        height:30%;
+    }
+}
