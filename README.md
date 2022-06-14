@@ -20,7 +20,7 @@ Para a visualização da aplicação é necessário:
 * E utilizando o comando $ git clone colar o URL que foi copiado;
 
 ```
-$ git clone https://github.com/limasbrn/forward-app.git
+$ git clone https://github.com/limasbrn/parallax-the-highest.git
 ```
 E logo em seguida fazer as devidas instalações e rodar o projeto no navegador:
 ```
